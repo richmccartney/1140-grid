@@ -81,6 +81,12 @@ img {
 	padding-top: 45px;
 }
 
+.intro h1 {
+	background: url(../images/logo.png) no-repeat left top;
+	padding-left: 70px;
+	padding-top: 40px;
+}
+
 /* Mobile Styles for 768px breakpoint */
 @media screen and (max-width: 768px) {
 
