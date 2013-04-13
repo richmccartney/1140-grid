@@ -22,18 +22,18 @@
 
 .row {
 	float: left;
-	width: 100%;
 	padding-bottom: 20px;
+	width: 100%;
 }
 
 /* Column styles */
 
 .column {
+	position: relative;
 	float: left;
 	margin: 0 1.0309278350515463%;
-	height: auto;
 	min-height: 1px;
-	position: relative;
+	height: auto;
 }
 
 .twelve {
@@ -96,20 +96,13 @@
 	width: 100%;
 }
 
-/* Images set to 100% width */
-
-img {
-	width: 100%;
-	float: left;
-}
-
 /* Mobile Styles for 768px breakpoint */
 @media screen and (max-width: 768px) {
 	
 	.container {
+		margin: 0;
 		max-width: 768px;
 		width: 100%;
-		margin: 0;
 	}
 
 	.row {
@@ -118,8 +111,8 @@ img {
 
 	.twelve, .eleven, .ten, .nine, .eight, .seven, 
 	.six, .five, .four, .three, .two, .one {
+		margin: 0 1% 20px;
 		max-width: 768px;
 		width: 98%;
-		margin: 0 1% 20px;
 	}
 }
