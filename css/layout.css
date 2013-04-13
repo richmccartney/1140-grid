@@ -1,0 +1,125 @@
+/*
+/*
+/*	1140 Grid CSS layout  
+/*
+/*
+/*	Created By Richard McCartney
+/*	Date 12/04/2013
+/*
+/*	http://richardmccartney.co.uk
+/*  Twitter - @Rich_McCartney
+/*
+/* ------------------------------------------------------------ */
+
+/* Container and row styles */
+
+.container {
+	margin: 0 auto;
+	max-width: 1164px;
+	width: 100%;
+	height: 100%;
+}
+
+.row {
+	float: left;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+/* Column styles */
+
+.column {
+	float: left;
+	margin: 0 1.0309278350515463%;
+	height: auto;
+	min-height: 1px;
+	position: relative;
+}
+
+.twelve {
+	max-width: 97.9381443298969%;
+	width: 100%;
+}
+
+.eleven {
+	max-width: 89.60481099656357%;
+	width: 100%;
+}
+
+.ten {
+	max-width: 81.27147766323024%;
+	width: 100%;
+}
+
+.nine {
+	max-width: 72.9381443298969%;
+	width: 100%;
+}
+
+.eight {
+	max-width: 64.60481099656357%;
+	width: 100%;
+}
+
+.seven {
+	max-width: 56.27147766323024%;
+	width: 100%;
+}
+
+.six {
+	max-width: 47.93814432989691%;
+	width: 100%;
+}
+
+.five {
+	max-width: 39.60481099656357%;
+	width: 100%;
+}
+
+.four {
+	max-width: 31.27147766323024%;
+	width: 100%;
+}
+
+.three {
+	max-width: 22.938144329896907%;
+	width: 100%;
+}
+
+.two {
+	max-width: 14.604810996563575%;
+	width: 100%;
+}
+
+.one {
+	max-width: 6.2714776632302405%;
+	width: 100%;
+}
+
+/* Images set to 100% width */
+
+img {
+	width: 100%;
+	float: left;
+}
+
+/* Mobile Styles for 768px breakpoint */
+@media screen and (max-width: 768px) {
+	
+	.container {
+		max-width: 768px;
+		width: 100%;
+		margin: 0;
+	}
+
+	.row {
+		padding: 0;
+	}
+
+	.twelve, .eleven, .ten, .nine, .eight, .seven, 
+	.six, .five, .four, .three, .two, .one {
+		max-width: 768px;
+		width: 98%;
+		margin: 0 1% 20px;
+	}
+}

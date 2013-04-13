@@ -1,0 +1,81 @@
+/*
+/*
+/*	1140 Grid CSS Site Styles 
+/*
+/*
+/*	Created By Richard McCartney
+/*	Date 12/04/2013
+/*
+/*	http://richardmccartney.co.uk
+/*  Twitter - @ Rich_McCartney
+/*
+/* ------------------------------------------------------------ */
+
+* {
+	margin: 0;
+	padding: 0;
+	text-rendering: optimizeLegibility;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font-size: 16px;
+	line-height: 18px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+}
+
+a {
+	text-decoration: underline;
+}
+
+a:hover {
+	color: orange;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #333;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font: 24px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+h5 {
+	font-size: 12px;
+}
+
+.intro {
+	padding-top: 45px;
+}
+
+/* Mobile Styles for 768px breakpoint */
+@media screen and (max-width: 768px) {
+
+	/* Add your own styles here */
+
+}
