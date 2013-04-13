@@ -78,13 +78,12 @@ img {
 }
 
 .intro {
-	padding-top: 45px;
+	padding-top: 0px;
 }
 
 .intro h1 {
-	background: url(../images/logo.png) no-repeat left top;
-	padding-left: 70px;
-	padding-top: 40px;
+	background: url(../images/logo.png) no-repeat left center;
+	padding: 40px 0 40px 75px;
 }
 
 /* Mobile Styles for 768px breakpoint */
