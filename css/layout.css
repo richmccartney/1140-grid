@@ -1,6 +1,6 @@
 /*
 /*
-/*	1140 Grid CSS layout  
+/*	1140 Grid CSS layout
 /*
 /*
 /*	Created By Richard McCartney
@@ -30,7 +30,7 @@
 
 /* Column styles */
 
-.column {
+[class^="col-"] {
 	position: relative;
 	float: left;
 	margin: 0 1.0309278350515463%;
@@ -38,69 +38,69 @@
 	height: auto;
 }
 
-.twelve {
+.col-twelve {
 	max-width: 97.9381443298969%;
 	width: 100%;
 }
 
-.eleven {
+.col-eleven {
 	max-width: 89.60481099656357%;
 	width: 100%;
 }
 
-.ten {
+.col-ten {
 	max-width: 81.27147766323024%;
 	width: 100%;
 }
 
-.nine {
+.col-nine {
 	max-width: 72.9381443298969%;
 	width: 100%;
 }
 
-.eight {
+.col-eight {
 	max-width: 64.60481099656357%;
 	width: 100%;
 }
 
-.seven {
+.col-seven {
 	max-width: 56.27147766323024%;
 	width: 100%;
 }
 
-.six {
+.col-six {
 	max-width: 47.93814432989691%;
 	width: 100%;
 }
 
-.five {
+.col-five {
 	max-width: 39.60481099656357%;
 	width: 100%;
 }
 
-.four {
+.col-four {
 	max-width: 31.27147766323024%;
 	width: 100%;
 }
 
-.three {
+.col-three {
 	max-width: 22.938144329896907%;
 	width: 100%;
 }
 
-.two {
+.col-two {
 	max-width: 14.604810996563575%;
 	width: 100%;
 }
 
-.one {
+.col-one {
 	max-width: 6.2714776632302405%;
 	width: 100%;
 }
 
 /* Mobile Styles for 768px breakpoint */
 @media screen and (max-width: 768px) {
-	
+
 	.container {
 		margin: 0;
 		max-width: 768px;
@@ -111,8 +111,18 @@
 		padding: 0;
 	}
 
-	.twelve, .eleven, .ten, .nine, .eight, .seven, 
-	.six, .five, .four, .three, .two, .one {
+	.col-twelve,
+	.col-eleven,
+	.col-ten,
+	.col-nine,
+	.col-eight,
+	.col-seven,
+	.col-six,
+	.col-five,
+	.col-four,
+	.col-three,
+	.col-two,
+	.col-one {
 		margin: 0 1% 20px;
 		max-width: 768px;
 		width: 98%;
