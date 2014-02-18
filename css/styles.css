@@ -27,25 +27,25 @@ html {
 body {
 	height: 100%;
 	color: #333;
+	text-align: center;
+	font-weight: bold;
 	font-size: 24px;
 	font-family: 'PT Sans Narrow', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	line-height: 30px;
-	font-weight: bold;
-	text-align: center;
 }
 
 header {
-	min-height: 350px;
 	float: left;
+	min-height: 350px;
 	width: 100%;
 	background: #6CB1E2;
 }
 
 header h1 {
 	color: #f5f6f6;
+	text-transform: uppercase;
 	text-shadow: 10px 10px 0 #1b2d35;
 	font: normal normal 200px/350px 'League Gothic', Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
 }
 
 header span {
@@ -54,9 +54,9 @@ header span {
 
 .intro {
 	float: left;
+	padding: 100px 0;
 	width: 100%;
 	background: #1b2d35;
-	padding: 100px 0;
 }
 
 .intro p {
@@ -66,46 +66,65 @@ header span {
 
 .features {
 	float: left;
-	width: 100%;
 	padding: 100px 0;
+	width: 100%;
 	color: #1b2d35;
 }
 
 .features h2,
 .example h2 {
-	font: normal normal 72px/24px 'League gothic', Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
 	margin-bottom: 90px;
+	text-transform: uppercase;
+	font: normal normal 72px/24px 'League gothic', Helvetica, Arial, sans-serif;
 }
 
 .features h3 span {
 	float: left;
-	width: 100%;
 	margin: 40px 0;
-	font-size: 48px;
+	width: 100%;
 	color: #2a6690;
+	font-size: 48px;
 }
 
 .example p {
-	font-size: 16px;
-	background: #EEE;
-	padding: 5px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	padding: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	background: #EEE;
+	font-size: 16px;
+}
+
+.download {
+	float: left;
+	margin-top: 50px;
+	padding: 100px 0 50px;
+	width: 100%;
+	background: #EEE;
+}
+
+.download a {
+	color: #333;
+	text-decoration: none;
+}
+
+.download span {
+	display: block;
+	width: 100%;
+	font-size: 100px;
+	margin-bottom: 45px;
 }
 
 footer {
 	float: left;
+	padding: 50px 0 30px;
 	width: 100%;
 	background: #6CB1E2;
-	padding: 50px 0 30px;
-	margin-top: 100px;
-	text-align: center;
 	color: #f5f6f6;
+	text-align: center;
 }
 
 footer a {
@@ -116,53 +135,6 @@ footer p {
 	margin-top: 20px;
 }
 
-@font-face {
-  font-family: 'fontello';
-  src: url('../fonts/fontello.eot?73539631');
-  src: url('../fonts/fontello.eot?73539631#iefix') format('embedded-opentype'),
-       url('../fonts/fontello.woff?73539631') format('woff'),
-       url('../fonts/fontello.ttf?73539631') format('truetype'),
-       url('../fonts/fontello.svg?73539631#fontello') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-    font-family: 'League Gothic';
-    src: url('../fonts/leaguegothic-regular-webfont.eot');
-    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
-         url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
-         url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-.icon-css3:before {
-	font-family: 'fontello';
-	content: '\e804';
-}
-
-.icon-window:before {
-	font-family: 'fontello';
-	content: '\e806';
-}
-
-.icon-resize-full:before {
-	font-family: 'fontello';
-	content: '\e801';
-}
-
-.icon-star:before {
-	font-family: 'fontello';
-	content: '\e803';
-}
-
-.icon-art-gallery:before {
-	font-family: 'fontello';
-	content: '\e802';
-}
 
 /* Mobile Styles for 768px breakpoint */
 @media screen and (max-width: 768px) {
@@ -173,14 +145,14 @@ footer p {
 	}
 
 	header {
-		height: auto;
 		min-height: 0;
+		height: auto;
 	}
 
 	header h1 {
+		margin: 40px 0 50px;
 		font-size: 100px;
 		line-height: 100px;
-		margin: 40px 0 50px;
 	}
 
 	.intro,
@@ -191,9 +163,9 @@ footer p {
 
 	.features h2,
 	.example h2 {
+		margin-bottom: 20px;
 		font-size: 50px;
 		line-height: 100px;
-		margin-bottom: 20px;
 	}
 
 	footer iframe {

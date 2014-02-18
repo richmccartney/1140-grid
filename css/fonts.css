@@ -1,0 +1,52 @@
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?73539631');
+  src: url('../fonts/fontello.eot?73539631#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff?73539631') format('woff'),
+       url('../fonts/fontello.ttf?73539631') format('truetype'),
+       url('../fonts/fontello.svg?73539631#fontello') format('svg');
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+
+}
+
+.icon-css3:before {
+	content: '\e804';
+	font-family: 'fontello';
+}
+
+.icon-window:before {
+	content: '\e806';
+	font-family: 'fontello';
+}
+
+.icon-resize-full:before {
+	content: '\e801';
+	font-family: 'fontello';
+}
+
+.icon-star:before {
+	content: '\e803';
+	font-family: 'fontello';
+}
+
+.icon-art-gallery:before {
+	content: '\e802';
+	font-family: 'fontello';
+}
+
+.icon-github-circled:before {
+	content: '\e807';
+	font-family: 'fontello';
+}
