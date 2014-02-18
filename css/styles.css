@@ -44,7 +44,7 @@ header {
 header h1 {
 	color: #f5f6f6;
 	text-shadow: 10px 10px 0 #1b2d35;
-	font: normal normal 200px/350px 'League gothic';
+	font: normal normal 200px/350px 'League Gothic', Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 }
 
@@ -73,7 +73,7 @@ header span {
 
 .features h2,
 .example h2 {
-	font: normal normal 72px/24px 'League gothic';
+	font: normal normal 72px/24px 'League gothic', Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 90px;
 }
@@ -125,6 +125,18 @@ footer p {
        url('../fonts/fontello.svg?73539631#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .icon-css3:before {
