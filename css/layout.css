@@ -40,62 +40,62 @@
 	height: auto;
 }
 
-.col-twelve {
+.col-12 {
 	max-width: 97.9381443298969%;
 	width: 100%;
 }
 
-.col-eleven {
+.col-11 {
 	max-width: 89.60481099656357%;
 	width: 100%;
 }
 
-.col-ten {
+.col-10 {
 	max-width: 81.27147766323024%;
 	width: 100%;
 }
 
-.col-nine {
+.col-9 {
 	max-width: 72.9381443298969%;
 	width: 100%;
 }
 
-.col-eight {
+.col-8 {
 	max-width: 64.60481099656357%;
 	width: 100%;
 }
 
-.col-seven {
+.col-7 {
 	max-width: 56.27147766323024%;
 	width: 100%;
 }
 
-.col-six {
+.col-6 {
 	max-width: 47.93814432989691%;
 	width: 100%;
 }
 
-.col-five {
+.col-5 {
 	max-width: 39.60481099656357%;
 	width: 100%;
 }
 
-.col-four {
+.col-4 {
 	max-width: 31.27147766323024%;
 	width: 100%;
 }
 
-.col-three {
+.col-3 {
 	max-width: 22.938144329896907%;
 	width: 100%;
 }
 
-.col-two {
+.col-2 {
 	max-width: 14.604810996563575%;
 	width: 100%;
 }
 
-.col-one {
+.col-1 {
 	max-width: 6.2714776632302405%;
 	width: 100%;
 }
@@ -113,20 +113,21 @@
 		padding: 0;
 	}
 
-	.col-twelve,
-	.col-eleven,
-	.col-ten,
-	.col-nine,
-	.col-eight,
-	.col-seven,
-	.col-six,
-	.col-five,
-	.col-four,
-	.col-three,
-	.col-two,
-	.col-one {
+	.col-12,
+	.col-11,
+	.col-10,
+	.col-9,
+	.col-8,
+	.col-7,
+	.col-6,
+	.col-5,
+	.col-4,
+	.col-3,
+	.col-2,
+	.col-1 {
 		margin: 0 1% 20px;
 		max-width: 768px;
 		width: 98%;
 	}
+
 }
