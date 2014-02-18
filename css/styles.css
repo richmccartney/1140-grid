@@ -38,7 +38,13 @@ header {
 	float: left;
 	min-height: 350px;
 	width: 100%;
-	background: #6CB1E2;
+	background: #6CB1E2 url(../images/bg.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: fixed;
+	z-index: 0;
 }
 
 header h1 {
@@ -57,6 +63,12 @@ header span {
 	padding: 100px 0;
 	width: 100%;
 	background: #1b2d35;
+	margin-top: 350px;
+	z-index: 10;
+	position: relative;
+	-webkit-box-shadow: 0 -1px 20px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 -1px 20px rgba(0,0,0,0.1);
+	box-shadow: 0 -1px 20px rgba(0,0,0,0.1);
 }
 
 .intro p {
@@ -64,11 +76,19 @@ header span {
 	text-align: center;
 }
 
-.features {
+.features,
+.example {
 	float: left;
 	padding: 100px 0;
 	width: 100%;
 	color: #1b2d35;
+	background: #FFF;
+	z-index: 10;
+	position: relative;
+}
+
+.example {
+	padding-bottom: 150px;
 }
 
 .features h2,
@@ -100,10 +120,11 @@ header span {
 
 .download {
 	float: left;
-	margin-top: 50px;
 	padding: 100px 0 50px;
 	width: 100%;
 	background: #EEE;
+	z-index: 10;
+	position: relative;
 }
 
 .download a {
@@ -125,6 +146,8 @@ footer {
 	background: #6CB1E2;
 	color: #f5f6f6;
 	text-align: center;
+	z-index: 10;
+	position: relative;
 }
 
 footer a {
@@ -155,6 +178,10 @@ footer p {
 		line-height: 100px;
 	}
 
+	.intro {
+		margin-top: 190px;
+	}
+
 	.intro,
 	.features,
 	.example {
@@ -176,5 +203,12 @@ footer p {
 	footer p {
 		float: left;
 		width: 100%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	.intro {
+		margin-top: 290px;
 	}
 }
