@@ -8,8 +8,8 @@ A simple 1140px responsive grid layout. This is a fluid template with only one b
 ## Features
 
 - **Clean markup** - Clear and clean markup, which is easy to manage and readable for all.
-- **Simple CSS** - No silly *.last* classes, the CSS has been created to be fully fuild and manageable.
-- **Fully responsive** - An itital breakpoint of 768px for mobile devices & a fully fuild grid column system for desktop and tablets.
+- **Simple CSS** - No silly *.last* classes, the CSS has been created to be fully fluid and manageable.
+- **Fully responsive** - An itital breakpoint of 768px for mobile devices & a fully fluid grid column system for desktop and tablets.
 - **PSD File** - Created with this responsive system is a PSD file showing the 12 column layout.
 
 ## Author
