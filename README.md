@@ -12,6 +12,14 @@ A simple 1140px responsive grid layout. This is a fluid template with only one b
 - **Fully responsive** - An itital breakpoint of 768px for mobile devices & a fully fuild grid column system for desktop and tablets.
 - **PSD File** - Created with this responsive system is a PSD file showing the 12 column layout.
 
+## Install with bower
+
+You can also install and manage 1140 grid using [Bower](http://bower.io/):
+
+<pre>
+<code>$ bower install 1140-grid</code>
+</pre>
+
 ## Author
 
 - [@rich_mccartney](http://twitter.com/Rich_McCartney)
