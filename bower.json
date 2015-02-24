@@ -1,0 +1,26 @@
+{
+  "name": "1140-grid",
+  "version": "1.0.0",
+  "homepage": "http://richmccartney.github.io/1140-grid",
+  "authors": [
+    "Richard McCartney <richard@mccartney.io>"
+  ],
+  "description": "Simple CSS 1140 Grid system",
+  "keywords": [
+    "css",
+    "grid",
+    "layout",
+    "template",
+    "framework",
+    "html",
+    "1140"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
